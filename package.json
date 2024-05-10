@@ -1,0 +1,35 @@
+{
+    "name": "my-rune-project",
+    "description": "My Rune Project",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "start": "webpack serve --mode=development",
+        "build": "webpack --mode=development --node-env=development",
+        "watch": "webpack --watch",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "rune-ts": "^0.8.8"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.2.0",
+        "@webpack-cli/generators": "^3.0.7",
+        "css-loader": "^7.1.1",
+        "eslint": "^8.57.0",
+        "html-webpack-plugin": "^5.6.0",
+        "prettier": "^3.2.5",
+        "style-loader": "^4.0.0",
+        "stylus": "^0.63.0",
+        "stylus-loader": "^8.1.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5",
+        "typescript-eslint": "^7.8.0",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
+    },
+    "volta": {
+        "node": "22.1.0"
+    }
+}

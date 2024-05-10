@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# logs
+/logs
+
+# dotenv environment variables file
+.env
+
+# webstorm
+.idea

@@ -1,0 +1,23 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "rules": {},
+    "env": {
+        "browser": true,
+        "esnext": true
+    },
+    "globals": {},
+    "overrides": [
+        {
+            "files": ["webpack.config.js"],
+            "env": {
+                "node": true
+            }
+        }
+    ]
+}
