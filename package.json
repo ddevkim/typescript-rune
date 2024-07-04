@@ -10,13 +10,17 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "rune-ts": "^0.8.8"
+        "@fxts/core": "^1.0.1",
+        "rune-ts": "^0.8.12"
     },
     "devDependencies": {
         "@eslint/js": "^9.2.0",
         "@webpack-cli/generators": "^3.0.7",
         "css-loader": "^7.1.1",
         "eslint": "^8.57.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.4.0",
         "html-webpack-plugin": "^5.6.0",
         "prettier": "^3.2.5",
         "style-loader": "^4.0.0",
